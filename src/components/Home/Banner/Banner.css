@@ -1,0 +1,19 @@
+.entryContainer,.imgContainer{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.slogan{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 100px;
+}
+.imgContainer{
+width: 100%;
+height: 100px;
+background-size: cover;
+background-repeat: no-repeat;
+}

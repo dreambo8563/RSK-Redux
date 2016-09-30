@@ -1,0 +1,39 @@
+.entryContainer{
+    width:100%;
+    height: 100px;
+    display: inline-block;
+    background-color: blue;
+    position: relative;
+    padding:16px;
+}
+.badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.highLight, .title,.rate,.duration{
+    composes:  inlineBlock from './../../../styles/_base.css';
+}
+.rate,.duration{
+    width:50%;
+}
+.progressContainer{
+width:100%;
+height: 2px;
+background-color: black;
+position: relative;
+& .bar{
+position: absolute;
+width:100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: white
+}
+}
+.configText{
+    float: right
+}
+.lowestAmount{
+    float: left
+}

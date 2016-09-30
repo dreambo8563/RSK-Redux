@@ -1,0 +1,60 @@
+.entryContainer{
+    width:100%;
+    height: 100px;
+    // display: inline-block;
+    // background-color: blue;
+    position: relative;
+    padding:16px;
+}
+.badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.highLight, .title,.rate,.duration{
+   display: inline-block;
+}
+.rate,.duration{
+    width:50%;
+}
+.progressContainer{
+width:100%;
+height: 2px;
+background-color: black;
+position: relative;
+& .bar{
+position: absolute;
+width:100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: blue
+}
+}
+.configText{
+    float: right
+}
+.lowestAmount{
+    float: left
+}
+.titleContainer{
+    text-align: left
+}
+.tags{
+     display: inline-block;
+    & .tag{
+     display: inline-block;
+     border-radius: 50%;
+     border: solid 1px
+    }
+}
+.action{
+    width: 20%;
+    height: 20px;
+    background-color: purple
+
+}
+.metaData{
+    width:80%;
+      display: inline-block;
+}

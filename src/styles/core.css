@@ -1,0 +1,26 @@
+/*@import 'base';*/
+/*@import '~normalize.css/normalize';*/
+
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+}
+
+div{
+  text-align: center;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

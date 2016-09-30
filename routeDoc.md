@@ -1,0 +1,33 @@
+- / 首页
+    - login 登陆注册
+    - register 注册成功页
+    - agreement 协议页
+    - forgot 忘记密码页
+    - finance/:type 理财页 默认选中第一个tab
+        - finance/jijin 不同tab
+        - finance/huoqi 等等
+    - finance/:type/:id 产品详情页
+        - finance/huoqi/898 活期产品id 898的详情页
+    - my 我的
+    - my/bonus 红包list
+    - my/records 我的资金记录
+    - my/reserve 我的预约
+    - my/finance/:type 我的基金、我的保险等等
+    - my/settings  设置页
+    - invite 邀请流程首页
+    - purchase 购买流程首页
+    - reserve 预约流程首页
+    - charge 充值流程首页
+    - withdraw 提现流程首页
+    - zeropay 0元购首页
+    - certificate 实名绑卡
+    - activity 发现页（活动）
+    - activity/:id 某活动详情页
+    - messages 消息list
+    - messages/:id 消息详情
+    - evaluate 风险评估
+    - security 安全
+    - announcement/:id 公告/快报详情页
+    - notfound
+
+

@@ -1,0 +1,86 @@
+.duck
+{
+    display: block;
+    margin: 1.5rem auto;
+    width: 120px;
+}
+
+.baseButton
+{
+    background-color: blue;
+    color: green;
+    font-size: 20px;
+}
+.baseLink
+{
+    color: red;
+    &:hover
+    {
+        color: black;
+    }
+}
+
+.baseLink:active
+{
+    color: green;
+}
+.container
+{
+    // background-color: black;
+    &  .nest
+    {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+    }
+}
+.myContainer{
+  background-color: green
+}
+
+.imageContainer{
+  // padding: 10px;
+  // transform: rotate(45deg);
+  width:350;
+  height: 150;
+}
+.bad{
+  border-radius: 50%
+}
+.navigation{
+  display: flex;
+  flex-direction: column;
+}
+.dialogContainer{
+  width:200px;
+  height: 200px;
+  border:30px solid blue;
+  box-sizing: content-box;
+}
+.SearchSection{
+  background-color: purple
+}
+.inlineBlock{
+  display: inline-block
+}
+.red{
+  color:red
+}
+.gray{
+  color:gray
+}
+.green{
+  color:green
+}
+.table{
+  background-color: white
+}
+.lazyList{
+  background-color: yellowgreen;
+  height: 20px;
+  width: 150px;
+  overflow: auto
+}
+.basicEntryStyle{
+  margin-right: 20px;
+}
